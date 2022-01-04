@@ -1,0 +1,80 @@
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ffd4d4;
+}
+
+h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  color: #222222;
+}
+
+h4{
+  font-size: 1.1rem;
+  color: #686868;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.activity{
+  font-size: 1.5rem;
+  color: #222222;
+  margin-top: 20px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.img{
+  width: 100%;
+  max-width: 200px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+}
+
+.participate{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.enter-parti{
+  width: 130px;
+  height: 40px;
+  border: 1px solid #222222;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn{
+  padding: 10px 20px;
+  border: none;
+  background: rgb(255, 30, 86);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+
+
+
